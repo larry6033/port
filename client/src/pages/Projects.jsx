@@ -1,38 +1,7 @@
-import React from "react";
-
-function Home() {
-  return (
-    <div className="min-h-screen bg-blue-50 text-blue-900">
-      <header className="text-center py-10 bg-blue-600 text-white shadow-md">
-        <h1 className="text-4xl font-bold">Larry Mwimali</h1>
-        <p className="text-xl">Full-Stack Developer</p>
-      </header>
-      <section className="py-10 px-5 md:px-20 bg-red-100">
-        <h2 className="text-3xl font-semibold border-b-2 border-red-300 pb-2">
-          About Me
-        </h2>
-        <p className="mt-5 text-lg">
-          I am a full-stack developer with experience in web development such
-          that I can develop any website using various programming languages
-          such as HTML, CSS, JavaScript, Python. I can also use tools such as
-          React, React Native, Tailwind CSS.
-        </p>
-      </section>
-      <section className="py-10 px-5 md:px-20 bg-white">
-        <h2 className="text-3xl font-semibold border-b-2 border-blue-300 pb-2">
-          Skills
-        </h2>
-        <ul className="mt-5 grid grid-cols-2 md:grid-cols-3 gap-4">
-          <li className="bg-blue-200 p-4 rounded shadow">HTML/CSS</li>
-          <li className="bg-blue-200 p-4 rounded shadow">JavaScript</li>
-          <li className="bg-blue-200 p-4 rounded shadow">React</li>
-          <li className="bg-blue-200 p-4 rounded shadow">Python</li>
-          <li className="bg-blue-200 p-4 rounded shadow">React Native</li>
-          <li className="bg-blue-200 p-4 rounded shadow">Figma</li>
-          <li className="bg-blue-200 p-4 rounded shadow">Firebase</li>
-        </ul>
-      </section>
-      <section className="py-10 px-5 md:px-20 bg-red-100">
+function Contacts(){
+    return(
+        <>
+              <section className="py-10 px-5 md:px-20 bg-red-100">
         <h2 className="text-3xl font-semibold border-b-2 border-red-300 pb-2">
           Projects
         </h2>
@@ -111,42 +80,8 @@ function Home() {
           </div>
         </div>
       </section>
-      <section className="py-10 px-5 md:px-20 bg-red-100">
-        <h2 className="text-3xl font-semibold border-b-2 border-red-300 pb-2">
-          Contact
-        </h2>
-        <p className="mt-5">
-          Email:{" "}
-          <a
-            href="mailto:larrymwimali@gmail.com"
-            className="text-blue-500 hover:underline"
-          >
-            larrymwimali@gmail.com
-          </a>
-        </p>
-        <p>
-          LinkedIn:{" "}
-          <a
-            href="https://www.linkedin.com/in/larry-mwimali-741835318/"
-            target="https://www.linkedin.com/in/larry-mwimali-741835318/"
-            className="text-blue-500 hover:underline"
-          >
-            yourprofile
-          </a>
-        </p>
-        <p>
-          GitHub:{" "}
-          <a
-            href="https://github.com/larry6033"
-            target="https://github.com/larry6033"
-            className="text-blue-500 hover:underline"
-          >
-            yourprofile
-          </a>
-        </p>
-      </section>
-    </div>
-  );
-}
 
-export default Home;
+        </>
+    )
+}
+export default Contacts
